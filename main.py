@@ -104,7 +104,7 @@ class CloudCtx:
 
 
 
-class HealthInst():
+class HealthInst:
 
 
     LIST_HEALTH_OBJ = []
