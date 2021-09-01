@@ -23,6 +23,6 @@ if __name__ == "__main__":
     driver.find_element_by_link_text("Examples").click()
     ex = driver.find_element_by_id("examples")
     nr_ex = ex.find_elements_by_xpath("//ol[@class='arabic']/li")
-    print(len(nr_ex))
+    print(len(nr_ex))  # ?????????????????
 
     driver.quit()
